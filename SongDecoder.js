@@ -5,5 +5,4 @@ function songDecoder(song){
     array.splice(0,3)
   }
   return array
-  });
-}
+  }git
