@@ -4,5 +4,7 @@ function songDecoder(song){
     array.splice((array.length -3), 3)
     array.splice(0,3)
   }
-  return array
-  }git
+  newSong = array.join('')
+  newArray = newSong.split('WUB')
+  return newArray.join(' ')
+  }
