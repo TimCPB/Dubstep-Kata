@@ -6,13 +6,11 @@ function songDecoder(song){
   }
   newSong = array.join('')
   newArray = newSong.split('WUB')
-  console.log(newArray)
   finalArray = []
   newArray.forEach(x => {
-    if(x !== " "){
+    if(x !== ""){
       finalArray.push(x)
     }
   });
-  console.log(finalArray)
   return finalArray.join(' ')
   }
