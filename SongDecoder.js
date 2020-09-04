@@ -6,5 +6,5 @@ function songDecoder(song){
   }
   newSong = array.join('')
   newArray = newSong.split('WUB')
-  return newArray.join(' ')
+  finalArray = []
   }
